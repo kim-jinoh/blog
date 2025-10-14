@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Etc
 nav_order: 999
 ---
