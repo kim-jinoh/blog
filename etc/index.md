@@ -1,5 +1,4 @@
 ---
-layout: home
 title: Etc
 nav_order: 999
 ---

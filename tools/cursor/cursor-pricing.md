@@ -1,5 +1,4 @@
 ---
-layout: home
 title: "💡 Cursor Pro 요금제 완벽 정리 (모델 / Auto / 토큰 과금 중심)"
 parent: Tools
 description: "Cursor의 최신 요금제 구조와 모델별 과금 방식을 개인 사용자(Pro) 기준으로 정리한 문서입니다."
