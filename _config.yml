@@ -11,3 +11,9 @@ logo: /assets/images/software-engineer-logo.png
 favicon_ico: /assets/images/software-engineer-logo.png
 
 ga_tracking: G-9YGJH1NW48
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: home
