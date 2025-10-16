@@ -12,6 +12,9 @@ favicon_ico: /assets/images/software-engineer-logo.png
 
 ga_tracking: G-9YGJH1NW48
 
+plugins:
+  - jekyll-sitemap
+
 defaults:
   - scope:
       path: ""
