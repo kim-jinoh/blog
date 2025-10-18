@@ -1,11 +1,9 @@
 ---
-layout: post
 title: "Java의 빌드 툴들: Maven vs Gradle — 조사하며 알게 된 것들"
+parent: Java
 date: 2025-10-18
 categories: [java, build]
 ---
-
-@Java
 
 최근 여러 문서와 커뮤니티 토론을 살펴보며 Maven과 Gradle을 집중적으로 비교·조사해봤습니다. 아래는 탐구 과정에서 확인한 핵심 차이, 실무적 시사점, 그리고 요즘의 트렌드에 대한 정리입니다.
 
