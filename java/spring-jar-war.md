@@ -9,6 +9,8 @@ tags: [java, spring, deployment]
 
 Java 웹 애플리케이션을 배포할 때 흔히 마주하는 두 가지 아카이브 형식이 있습니다: **JAR**와 **WAR**. 둘은 목적과 구조, 배포 방식에서 차이가 있으며, 특히 Spring(특히 Spring Boot)을 사용할 때 어떤 형식을 선택하느냐에 따라 개발·운영 흐름이 달라집니다. 이 글에서는 핵심 차이와 실전에서의 선택 기준을 정리합니다.
 
+간단 요약: 새로 시작하는 Spring Boot 애플리케이션은 실행 가능한 `JAR`로 패키징해 컨테이너화하는 것이 보통 더 간편합니다. 다만 기존 앱서버(centralized Tomcat 등)를 유지해야 한다면 `WAR`가 여전히 유용합니다.
+
 ### JAR란?
 
 - **JAR (Java ARchive)**: 여러 클래스 파일과 리소스를 하나의 파일로 묶은 표준 Java 아카이브입니다.
@@ -134,3 +136,7 @@ public class MyApplication extends SpringBootServletInitializer {
 
 - **JAR**: 빠른 배포, 컨테이너 친화적, Spring Boot 내장 서버 사용
 - **WAR**: 전통적 서버 기반 배포, 앱서버 기능(관리·모듈화) 활용
+
+권장
+- **신규/컨테이너 기반 배포**: 실행 가능한 `JAR` 사용 권장
+- **기존 앱서버 인프라 유지 필요**: `WAR` 고려
