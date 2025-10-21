@@ -1,5 +1,6 @@
 ---
 title: "JAR vs WAR — Spring 애플리케이션 배포 방식 비교"
+parent: "Java"
 date: 2025-10-18
 tags: [java, spring, deployment]
 ---
