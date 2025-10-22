@@ -1,7 +1,8 @@
 ---
 title: Spring ApplicationContext 깊이 이해하기
 layout: post
-categories: [java, spring]
+parent: Java
+categories: [java, spring, ApplicationContext, bean, DI, Container]
 ---
 
 ## Spring `ApplicationContext`란?
