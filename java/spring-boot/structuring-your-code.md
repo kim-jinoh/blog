@@ -1,5 +1,5 @@
 ---
-title: "Java의 빌드 툴들: Maven vs Gradle — 조사하며 알게 된 것들"
+title: "structuring Your Code"
 parent: SpringBoot
 date: 2025-12-08
 categories: [java, build, spring boot, code structure]
